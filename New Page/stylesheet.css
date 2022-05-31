@@ -1,0 +1,79 @@
+body {
+    background: #ffcbcb;
+    font-family: verdana;
+    padding:0;
+    margin:0;
+    display:flex;
+    }
+h1 {
+    font-family: verdana;
+    }
+p {
+      font-family: verdana;
+      font-size: 20px;
+      text-align: center;
+    }
+#header {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+#headerimage {
+      width: 341px;
+      height: 227px;
+    }
+#hiraganatable  {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+      }
+#womanstudying    {
+    width: 287px;
+    height: 407px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ol  {
+    text-align: center;
+    list-style-position: inside;
+}
+h2 {    
+    text-align: center;
+}
+#content {
+    width: 50%;
+    margin: auto;
+}
+#side-nav   {
+    background-color: #ffb5b5; 
+    height: 100%;
+    width: 300px;
+    position: fixed;
+}
+#container {
+    flex: 1;
+}
+button {        
+    background-color: #407088; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #132743; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;  
+}
